@@ -2,9 +2,7 @@ package day3;
 
 public class Largestof3 {
     public static void main (String[]args){
-        int A=1;
-        int B=3;
-        int C=6;
+        int A=1 ,B=3 ,C=1;
         if ((A>=B)&&((A>=C))){
             System.out.println("A is the largest number");
         } else if (B>=C){
